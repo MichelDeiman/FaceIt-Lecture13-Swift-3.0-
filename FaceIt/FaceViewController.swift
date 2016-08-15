@@ -63,7 +63,7 @@ class FaceViewController: UIViewController
 	}
 	
 	private struct Animation {
-		static let ShakeAngle: CGFloat = CGFloat(M_PI/10)
+		static let ShakeAngle: CGFloat = CGFloat(M_PI/6)
 		static let ShakeDuration = 0.3
 	}
 	
@@ -86,11 +86,11 @@ class FaceViewController: UIViewController
 								UIView.animate(
 									withDuration: Animation.ShakeDuration,
 									animations: {
-										self.faceView.transform = CGAffineTransform(rotationAngle: Animation.ShakeAngle)
+										self.faceView.transform = CGAffineTransform(rotationAngle: 0)
 									},
 									completion: { finished in
 										if finished {
-											
+//											self.headShake(sender)
 										}
 										
 									}
