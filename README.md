@@ -1,5 +1,5 @@
-# FaceIt
-Lecture 4 & Lecture 5 Stanford CS 193P iPhone Application Development
+# NSTimer and Animation
+Lecture 13 Stanford CS 193P iPhone Application Development
 
 Various links... My youtube channel... 
 https://www.youtube.com/playlist?list=PLPA-ayBrweUy5XCYle8Kj5MwJblydkbMX
